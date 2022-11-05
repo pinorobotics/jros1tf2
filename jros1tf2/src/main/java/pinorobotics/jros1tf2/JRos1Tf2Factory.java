@@ -36,7 +36,7 @@ public class JRos1Tf2Factory {
     /**
      * Creates a new instance of the client which will interact with TF2 Buffer Server
      *
-     * @param client ROS2 client
+     * @param client ROS1 client
      */
     public JRos1Tf2 createTf2Client(JRos1Client client) {
         Preconditions.isTrue(

@@ -22,8 +22,8 @@
  * <p>For usage examples see <a href="http://pinoweb.freetzi.com/jrostf2">Documentation</a>
  *
  * @see <a href="http://pinoweb.freetzi.com/jrostf2">Documentation</a>
- * @see <a href="https://github.com/pinorobotics/jrostf2/releases">Download</a>
- * @see <a href="https://github.com/pinorobotics/jrostf2">GitHub repository</a>
+ * @see <a href="https://github.com/pinorobotics/jros1tf2/releases">Download</a>
+ * @see <a href="https://github.com/pinorobotics/jros1tf2">GitHub repository</a>
  * @see <a href="http://wiki.ros.org/tf/Tutorials">TF Tutorial</a>
  * @see <a href="http://wiki.ros.org/tf2/Tutorials">TF2 Tutorial</a>
  * @see <a href="https://www.youtube.com/watch?v=Xf25dVrG5ks">Transformations explained</a>
