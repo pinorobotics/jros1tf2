@@ -23,9 +23,7 @@ import id.jrosmessages.RosInterfaceType;
 import id.xfunction.XJson;
 import java.util.Objects;
 import pinorobotics.jros1actionlib.actionlib_msgs.Action1ResultMessage;
-import pinorobotics.jros1actionlib.actionlib_msgs.GoalIdMessage;
 import pinorobotics.jros1actionlib.actionlib_msgs.GoalStatusMessage;
-import pinorobotics.jrosactionlib.actionlib_msgs.StatusType;
 
 /** Definition for tf2_msgs/LookupTransformActionResult */
 @MessageMetadata(
@@ -85,12 +83,7 @@ public class LookupTransformActionResultMessage
     }
 
     @Override
-    public StatusType getStatus() {
-        return StatusType.values()[status.status];
-    }
-
-    @Override
-    public GoalIdMessage getGoalId() {
-        return status.goal_id;
+    public GoalStatusMessage getGoalStatus() {
+        return status;
     }
 }
