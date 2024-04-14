@@ -22,7 +22,8 @@
  * <p>For usage examples see <a href="http://pinoweb.freetzi.com/jrostf2">Documentation</a>
  *
  * @see <a href="http://pinoweb.freetzi.com/jrostf2">Documentation</a>
- * @see <a href="https://github.com/pinorobotics/jros1tf2/releases">Download</a>
+ * @see <a href=
+ *     "https://github.com/pinorobotics/jros1tf2/blob/main/jros1tf2/release/CHANGELOG.md">Releases</a>
  * @see <a href="https://github.com/pinorobotics/jros1tf2">GitHub repository</a>
  * @see <a href="http://wiki.ros.org/tf/Tutorials">TF Tutorial</a>
  * @see <a href="http://wiki.ros.org/tf2/Tutorials">TF2 Tutorial</a>

@@ -19,6 +19,7 @@ package pinorobotics.jros1tf2;
 
 import pinorobotics.jros1tf2.tf2_msgs.LookupTransformResultMessage;
 import pinorobotics.jrosactionlib.JRosActionClient;
+import pinorobotics.jrostf2.exceptions.JRosTf2Exception;
 import pinorobotics.jrostf2.impl.AbstractJRosTf2;
 import pinorobotics.jrostf2.tf2_msgs.LookupTransformGoalMessage;
 
@@ -45,5 +46,12 @@ public class JRos1Tf2 extends AbstractJRosTf2<LookupTransformResultMessage> {
             JRosActionClient<LookupTransformGoalMessage, LookupTransformResultMessage>
                     lookupTransformActionClient) {
         super(lookupTransformActionClient);
+    }
+
+    /** {@inheritDoc} */
+    @Override
+    public LookupTransformResultMessage lookupTransform(String targetFrameId, String sourceFrameId)
+            throws JRosTf2Exception {
+        return super.lookupTransform(targetFrameId, sourceFrameId);
     }
 }
