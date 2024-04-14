@@ -29,6 +29,7 @@ import pinorobotics.jros1actionlib.actionlib_msgs.GoalStatusMessage;
 @MessageMetadata(
         name = LookupTransformActionResultMessage.NAME,
         md5sum = "ac26ce75a41384fa8bb4dc10f491ab90",
+        fields = {"header", "status", "result"},
         interfaceType = RosInterfaceType.ACTION)
 public class LookupTransformActionResultMessage
         implements Action1ResultMessage<LookupTransformResultMessage> {

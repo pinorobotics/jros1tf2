@@ -1,2 +1,2 @@
-include 'jros1tf2'
-include 'jros1tf2.tests'
+include "${zzName}"
+include "${zzName}.tests"

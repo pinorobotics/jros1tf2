@@ -33,6 +33,7 @@ import pinorobotics.jrostf2.tf2_msgs.LookupTransformGoalMessage;
  */
 @MessageMetadata(
         name = LookupTransformActionGoalMessage.NAME,
+        fields = {"header", "goal_id", "goal"},
         md5sum = "f2e7bcdb75c847978d0351a13e699da5",
         interfaceType = RosInterfaceType.ACTION)
 public class LookupTransformActionGoalMessage
